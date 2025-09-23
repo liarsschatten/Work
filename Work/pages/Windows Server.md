@@ -1,0 +1,16 @@
+# Installations Medium erstellen
+	- Man startet mit dem erstellen eines Live Mediums (USB Stick)
+	- Dazu benutze ich bevorzugt Ventoy
+	- Zuerst lädt man sich die ISO Datei von Microsofts offizieller Website herunter
+	- Dann erstellt man mit dem Ventoy Installer einen Ventoy Stick
+	- Zuletzt muss man nur noch die ISO auf das Laufwerk ziehen welches Ventoy heißt
+- # Betriebssystem installieren
+	- Zunächst stellt man die präferierte Sprache ein
+	- Danach klickt man auf Installieren
+	- Wichtig ist das man hier **Datacenter (mit grafischer Benutzeroberfläche)** wählt
+	- Akzeptieren der Lizenzbedingungen
+	- Danach wählt man **Benutzerdefiniert** aus
+		- Hier stellt man die Partitionen von Windows ein
+		- Diese lassen sich später nur noch schwer ändern
+	- Nach
+-
