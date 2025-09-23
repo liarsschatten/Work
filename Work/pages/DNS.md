@@ -5,3 +5,10 @@
 		- Beispiel: google.com  google = DNS (IP: 8.8.8.8)
 - # Rolle in einer Domain
 	- Identifiziert den DC über einen Namen anstatt einer IP-Adresse
+	- Die Internet Domain sollte nicht mit dem internen Domain-Name übereinstimmen
+- ## Forward Lookup Zones
+	- Der DNS Server erhält eine Anfrage mit einem Namen
+	- DNS schaut in seiner Tabelle nach und gibt die IP zurück
+- ## Reverse Lookup Zones
+	- Der DNS Server erhält eine Anfrage mit einer IP-Adresse
+	- DNS schaut in seiner Tabelle nach und gibt den Namen zurück
