@@ -12,5 +12,23 @@
 	- Danach wählt man **Benutzerdefiniert** aus
 		- Hier stellt man die Partitionen von Windows ein
 		- Diese lassen sich später nur noch schwer ändern
-	- Nach
+	- Nach diesem Schritt muss der Rechner neu gestartet werden
+	- Daraufhin muss man zunächst das Kennwort für das Administrator Konto
+		- Es muss drei der folgenden Kategorien enthalten
+		- Klein- u. Großbuchstaben, Zahlen und Sonderzeichen
+	- Danach kommt ein *wichtiger* Schritt nämlich das erstellen eines **lokalen Admin** Kontos
+		- Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt
+		- Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen
+- # Windows Server Interface
+	- ## Manage
+		- Hier fügt man neue Features hinzu bspw.
+			- Active Directory
+			- DNS Verwaltung
+			- HyperV
+	- ## Tools
+		- Hier findet man alle Tools zu Verwaltung der einzelnen Dienste
+		- Einige wichtige Tools im Schnellüberblick:
+			- HyperV Manager für VMs
+			- Active Directory Domain Services für die Verwaltung von der Domäne
+			- DNS für die Einstellung der Domainnamen und die Address Auflösung
 -
