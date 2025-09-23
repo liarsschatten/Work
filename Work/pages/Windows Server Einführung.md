@@ -22,7 +22,7 @@
 - # Windows Server Interface
 	- ## Manage
 		- Hier fügt man neue Features hinzu bspw.
-			- Active Directory
+			- Active Directory [[Windows Server Domain Controller]]
 			- DNS Verwaltung
 			- HyperV
 	- ## Tools
@@ -31,4 +31,3 @@
 			- HyperV Manager für VMs
 			- Active Directory Domain Services für die Verwaltung von der Domäne
 			- DNS für die Einstellung der Domainnamen und die Address Auflösung
--

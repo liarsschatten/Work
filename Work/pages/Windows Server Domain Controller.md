@@ -1,0 +1,20 @@
+# Domäne
+	- Ein Domain Controller kurz DC sorgt dafür dass man sich nahtlos mit jedem in die Domäne eingebundenen Rechner verbinden kann
+	- Er stellt in der Domäne die Anmelde Daten und die Berechtigungen für jeden Nutzer Domänen weit ein
+- # DC Einrichten
+	- Navigieren sie in die Einstellungen unter System/Info
+	- Klicken sie auf Computername ändern -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
+		- Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
+		- Tragen sie den richtigen Domainnamen ein
+	- Weisen sie dem DC eine statische IPv4 Adresse zu
+- {{embed [[Ausfallsicherheit]]}}
+	- Bei Domaincontrollern findet nur Passive Redundanz statt
+- ## Gesamtstruktur, Struktur & Domäne
+	- Die Gesamtstruktur bezeichnet einen Forest also die Gesamtheit aller Strukturen
+	- Strukturen bezeichnen eine Baumstruktur aus z.B. einer Second-Level-Domain und mehreren Unterdomains (firma.intern + abteilung.firma.intern)
+	- Eine Domäne bezeichnet einen abgekapselten Bereich mit einheitlicher Berechtigungsverwaltung
+		- Mehrere Domänen lohnen sich nur bei großen Firmen mit vielen Standorten wo Millionen von Objekten verwaltet werden
+- ## Domainname
+	- Der Domainname muss mindestens eine Second-Level-Domain sein (z.B. firma.local)
+		- Hierbei handelt es sich um einen vollqualifizierten Domainnamen
+	-
