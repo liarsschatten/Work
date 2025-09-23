@@ -17,4 +17,4 @@
 - ## Domainname
 	- Der Domainname muss mindestens eine Second-Level-Domain sein (z.B. firma.local)
 		- Hierbei handelt es sich um einen vollqualifizierten Domainnamen
-	-
+- {{embed [[DNS]]}}
