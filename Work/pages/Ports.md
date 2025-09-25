@@ -7,8 +7,8 @@
 	- 22 - SSH: Secure Shell
 	- 25 - SMTP: Secure Mail Transfer Protocol
 	- 53 - DNS: Domain Name System
-	- 67 - DHCP: Dynamic Host Configuration Protocol
-	- 68 - DHCP: Dynamic Host Configuration Protocol
+	- 67 - DHCP: Dynamic Host Configuration Protocol Server Side
+	- 68 - DHCP: Dynamic Host Configuration Protocol Client Side
 	- 80 - HTTP: Hyper Text Transfer Protocol
 	- 110 - POP3: Post Office Protocol
 	- 389 - LDAP: Lightweight Directory Access Protocol
