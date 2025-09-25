@@ -72,7 +72,7 @@
 		- Das ist besonders wichtig wenn man zu mehreren arbeitet.
 - # Remote Repository
 	- Ein Remote Repository ist an sich nur eine Kopie des aktuellen Standes die woanders aufbewahrt wird.
-	- ## Hinzufügen
+	- ## Remote Hinzufügen
 		- In diesem Schritt fügt man ein Remote Repository
 			- ```git
 			  git remote add link

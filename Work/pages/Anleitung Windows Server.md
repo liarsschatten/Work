@@ -16,6 +16,10 @@
 	- Daraufhin muss man zunächst das Kennwort für das Administrator Konto
 		- Es muss drei der folgenden Kategorien enthalten
 		- Klein- u. Großbuchstaben, Zahlen und Sonderzeichen
+	- Navigieren sie in die Einstellungen unter System/Info
+		- Klicken sie auf **Computername ändern** -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
+			- Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
+			- Tragen sie den richtigen Domainnamen ein
 	- Danach kommt ein *wichtiger* Schritt nämlich das erstellen eines **lokalen Admin** Kontos
 		- Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt
 		- Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen
@@ -24,7 +28,7 @@
 		- Hier fügt man neue Features hinzu bspw.
 			- Active Directory [[Windows Server Domain Controller]]
 			- DNS Verwaltung
-			- HyperV
+			- [[Anleitung Hyper V]]
 	- ## Tools
 		- Hier findet man alle Tools zu Verwaltung der einzelnen Dienste
 		- Einige wichtige Tools im Schnellüberblick:
