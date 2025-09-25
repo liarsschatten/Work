@@ -15,8 +15,7 @@
 		- Das BSI empfiehlt vor und nach dem Application Level Gateway einen Paketfilter zu einzusetzen.
 		  Diese Kombination sorgt für eine Entlastung des ALG weil falsch adressierte Pakete bereits vorher abgefangen werden.
 - # Hochverfügbarkeit
-	- **Passive Hochverfügbarkeit** bedeutet dass eine Ersatzfirewall einspringt wenn die erste ausfällt.
-	- **Aktive Hochverfügbarkeit** bedeutet das mehrere Firewalls nebeneinander geschaltet werden und durch einen **Loadbalancer** die Anfragenlast untereinander aufteilen.
+	- {{embed [[Ausfallsicherheit]]}}
 - # Demilitarisierte Zone
 	- Die DMZ beschreibt eine Zone die vom Lokalen Netzwerk getrennt ist. Dort stehen z.B. Fileserver welche man von außen erreichbar sein sollen.
 	  Diese Server sind vom Rest des Netzwerkes getrennt damit Angriffe nicht den Rest des Netzwerkes betreffen können.
