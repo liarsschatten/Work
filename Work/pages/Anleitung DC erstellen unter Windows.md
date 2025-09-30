@@ -2,6 +2,32 @@
 	- Navigieren sie in die Einstellungen unter System/Info
 		- Klicken sie auf Computername ändern -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
 			- Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
-	-
 	- Weisen sie dem DC eine statische IPv4 Adresse zu
-	-
+- # DC Erstellen
+	- Im Servermanager auf verwalten klicken
+		- Rollen und Funktionen hinzufügen
+		- Rollen basierte Installation
+		- Active Directory Domain Services hinzufügen
+	- Auf die Fahne klicken
+		- Via den Link den Server zum DC promoten
+		- Add new Forest
+		- **Root Domain Name** festlegen dieser muss mindestens eine **Second Level Domain** sein
+			- Zum Beispiel firma.local hier ist firma der Hostname
+		- Dann muss das Directory Service Restore Mode Passwort festgelegt werden
+		- Daraufhin muss man den NetBIOS Domain Name festlegen wobei standardmäßig der Hostname in Capslock angegeben wird
+		- Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen
+			- SYSVOL enthält unter anderem die Group Policies und den Domain Folder
+		- Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
+		- Im nächsten Schritt prüft Windows die Voraussetzungen
+			- Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
+- # DC hinzufügen
+	- Im Servermanager auf verwalten klicken
+		- Rollen und Funktionen hinzufügen
+		- Rollen basierte Installation
+		- Active Directory Domain Services hinzufügen
+	- Auf die Fahne klicken
+		- Via den Link den Server zum DC promoten
+		- Domain Controller zu einer existierenden Domain hinzufügen
+		- Geben sie den **Root Domain Name** an
+			- Danach muss man sich als Domain Administrator anmelden
+		- Aktivieren sie DNS-Server und Globaler Katalog
