@@ -1,0 +1,12 @@
+# Cyber-physische Systeme
+	- Beschreibt Systeme die via Sensoren Daten aufnehmen und auf Basis dieser Daten bestimmte Aktionen ausführen können.
+- ## Produktionssysteme
+	- Direkte und selbstständige Ausführung von Fertigungsprozessen. Nutzt viel Robotik um Prozesse zu automatisieren. Funktioniert weitesgehend selbstständig der Mensch ist nur Kontrollfunktion. Die Produktionsanlagen können Fehler selbst erkennen und beheben.
+- # Internet of Things
+	- Beschreibt die Vernetzung von Geräten über das Internet, welche dadurch intelligenter und effizienter arbeiten können.
+- ## Industrielle Applikation
+	- Bezieht sich auf die effiziente ferngesteuerte Produktion
+- # Smart Factory
+	- Merkmale sind die Vernetzung von Produktionsanlagen, Datenzentralisierung, Selbststeuerung und Flexible Systeme. Solche Fabriken sind leichter zu pflegen und weniger Ausfallanfällig.
+- # Smart Home
+	- Beschreibt die Vernetzung von Systemen des Zuhause z.B. Licht, Heizungen und Überwachungskameras. Das Smart-Home kann von überall über das Internet gesteuert werden.

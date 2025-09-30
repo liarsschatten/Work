@@ -1,0 +1,21 @@
+# Allgemeines
+	- Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs
+	- In Hyper V kann man außerdem über einen Virtuellen Switch ein internes Netzwerk aufbauen
+	- Dadurch kann man alle Funktionen von Windows Server Virtuell Testen ohne tatsächlich ein eigenes aufbauen zu müssen
+- # Hyper V
+- Zunächst startet man den Hyper V Manager
+- # Einen virtuellen Switch einrichten
+	- Unter Aktionen/Actions finden Sie den Virtual Switch Manager
+	- Im obersten Menü wählt man Intern/Internal aus
+	- Dann vergibt man einen Namen und klickt auf Anwenden/Apply
+- # Einen virtuellen Computer erstellen
+	- Als nächstes klickt man unter Aktionen/Actions auf Neu/New um den Assistenten für Virtuelle Computer zu starten
+		- Als erstes gibt man der VM einen Namen und gibt den Speicherort an
+		- Danach kann man die Generation auswählen wobei Generation 2 die neuere und bessere Version ist
+		- Dann muss man RAM zuweisen, man kann auch dynamisch RAM zuweisen lassen.
+			- Das heißt das genau soviel RAM zur Verfügung gestellt wird wie benötigt wird
+		- Als nächstes gibt man an zu welchem Netzwerk die Maschine gehören soll
+			- Hier gibt man den zuvor erstellten Switch an
+		- Im fünften Schritt wird eine Virtuelle Festplatte zugewiesen
+		- Zuletzt gibt man an welches Betriebssystem man verwenden möchte
+			- Man benötigt hier keinen Installations USB Stick sondern die ISO-Datei
