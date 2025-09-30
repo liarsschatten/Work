@@ -20,6 +20,10 @@
 		- Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
 		- Im nächsten Schritt prüft Windows die Voraussetzungen
 			- Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
+- # In Domain einpflegen
+- Muss im selben Subnetz sein (Selber IP Präfix)
+- Unter System Settings/About/Advanced Settings/Computer Name/Change
+-
 - # DC hinzufügen
 	- Im Servermanager auf verwalten klicken
 		- Rollen und Funktionen hinzufügen
@@ -31,3 +35,10 @@
 		- Geben sie den **Root Domain Name** an
 			- Danach muss man sich als Domain Administrator anmelden
 		- Aktivieren sie DNS-Server und Globaler Katalog
+			- Ignoriere die Warnung bei DNS Options
+		- Replicate from DC 1
+		- Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen
+			- SYSVOL enthält unter anderem die Group Policies und den Domain Folder
+		- Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
+		- Im nächsten Schritt prüft Windows die Voraussetzungen
+			- Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
