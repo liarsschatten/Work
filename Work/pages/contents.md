@@ -1,4 +1,4 @@
-# Allgemeines
+# Allgemein
 	- ## Betriebssysteme
 		- ### Allgemein
 			- [[Firewall]]
