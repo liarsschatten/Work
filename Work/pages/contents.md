@@ -1,1 +1,26 @@
+# Allgemeines
+	- ## Betriebssysteme
+		- ### Allgemein
+			- [[Firewall]]
+				- [[Ports]]
+		- ### Windows
+			- [[CMD Befehle]]
+			- [[Windows Server Domain Controller]]
+			- [[DNS]]
+			- [[IT-Sicherheit Grundlagen]]
+		- ### Linux
+	- ## Software
+		- [[Git]]
+	- ## Hardware
+		- [[Industrie 4.0]]
+		-
+- # Windows Server Anleitungen
+	- ## Betriebssystem
+		- [[Anleitung Windows Server Installation]]
+	- ## Hyper V
+		- [[Anleitung Hyper V]]
+	- ## DC
+		- [[Anleitung DC erstellen unter Windows]]
+	- ## DNS
+		- [[Anleitung DNS unter Windows]]
 -
