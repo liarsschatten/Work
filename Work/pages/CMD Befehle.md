@@ -58,7 +58,27 @@
   **d** - Nach Datum/Uhrzeit, älteste zuerst|
 -
 - ## exit
+	- Beendet den Befehlsinterpreter oder das aktuelle Batchskript
+	- |**Parameter** | **Description**|
+	  |`/b`| Beendet das aktuelle Batchskript|
+	  |`<exitcode>`| Gibt eine numerische Zahl an.|
+	-
 - ## find
+	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.
+- ## find Syntax:
+- ```cmd
+  find [/v] [/c] [/n] [/i] [/off[line]] <"string"> [[<drive>:][<path>]<filename>[...]]
+  ```
+- ## find Parameter:
+- |**Parameter**|**Description**|
+  |`/v`| Zeigt alle Zeilen an, die nicht die angegebene `<string>` enthalten|
+  |`/c`| Zählt die Zeilen, die die angegebene `<string>` enthalten, und zeigt die Summe an|
+  |`/n`| Steht vor jeder Zeile mit der Zeilennummer der Datei.|
+  |`/i`| Gibt an, dass bei der Suche die Groß-/Kleinschreibung nicht beachtet wird|
+  |`/off[line]`| Überspringt keine Datei, für die der Offline-Attributsatz festgelegt ist|
+  |`<"string">`| required. Gibt die Gruppe von Zeichen an, nach denen Sie suchen möchten|
+  |`[<drive:>:] [<path>] <filename>`| Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird|
+-
 - ## hostname
 - ## pause
 - ## runas
