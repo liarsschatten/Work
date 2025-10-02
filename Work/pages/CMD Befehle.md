@@ -80,7 +80,17 @@
   |`[<drive:>:] [<path>] <filename>`| Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird|
 -
 - ## hostname
+	- Zeigt den Hostnamenteil des vollständigen Computernamens an.
+- ## hostname Syntax:
+- ```cmd
+  hostname
+  ```
 - ## pause
+	- Hält die Verarbeitung eines Batchprogrammes an, zeigt die Eingabeaufforderung an.
+- ## pause Syntax:
+- ```cmd
+  pause
+  ```
 - ## runas
 - ## shutdown
 - ## sort
