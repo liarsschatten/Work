@@ -2,7 +2,7 @@
 	- DNS steht für **Domain Name System** und ist für die Namensauflösung zuständig
 		- Übersetzt Namen zu IP-Adressen und umgekehrt
 		- Wird in einer internen Tabelle gespeichert
-		- Beispiel: google.com  google = DNS (IP: 8.8.8.8)
+		- Beispiel: google.com  Google = DNS (IP: 8.8.8.8)
 - # Rolle
 	- Der DNS-Server pflegt eine Tabelle in welcher IP-Adressen zu Host-Namen zugeordnet werden
 		- Identifiziert alle Computer in einer Domäne - unter anderem den DC - über einen Namen anstatt einer IP-Adresse

@@ -1,6 +1,6 @@
 # Domäne
-	- Ein Domain Controller kurz DC sorgt dafür dass man sich nahtlos mit jedem in die Domäne eingebundenen Rechner verbinden kann
-	- Er stellt in der Domäne die Anmelde Daten und die Berechtigungen für jeden Nutzer Domänen weit ein
+	- Ein Domain Controller kurz 'DC' sorgt dafür dass man sich nahtlos mit jedem in die Domäne eingebundenen Rechner verbinden kann
+	- Er stellt in der Domäne die Anmeldedaten und die Berechtigungen für jeden Nutzer Domänen weit ein
 - {{embed [[Ausfallsicherheit]]}}
 	- Bei Domaincontrollern findet nur Passive Redundanz statt
 - ## Gesamtstruktur, Struktur & Domäne
