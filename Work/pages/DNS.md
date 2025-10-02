@@ -3,8 +3,9 @@
 		- Übersetzt Namen zu IP-Adressen und umgekehrt
 		- Wird in einer internen Tabelle gespeichert
 		- Beispiel: google.com  google = DNS (IP: 8.8.8.8)
-- # Rolle in einer Domain
-	- Identifiziert den DC über einen Namen anstatt einer IP-Adresse
+- # Rolle
+	- Der DNS-Server pflegt eine Tabelle in welcher IP-Adressen zu Host-Namen zugeordnet werden
+		- Identifiziert alle Computer in einer Domäne - unter anderem den DC - über einen Namen anstatt einer IP-Adresse
 	- Die Internet Domain sollte nicht mit dem internen Domain-Name übereinstimmen
 - ## Forward Lookup Zones
 	- Der DNS Server erhält eine Anfrage mit einem Namen
@@ -12,3 +13,21 @@
 - ## Reverse Lookup Zones
 	- Der DNS Server erhält eine Anfrage mit einer IP-Adresse
 	- DNS schaut in seiner Tabelle nach und gibt den Namen zurück
+- # Zusammenspiel mit DHCP-Server
+	- Der Client übermittelt seinen Namen an den DHCP-Server. Daraufhin weist er ihm eine IP-Adresse zu und kommuniziert diese mit dem Client
+		- Der DHCP-Server leitet die zugewiesene IP-Adresse auch an den DNS-Server weiter
+- # Aufbau der DNS-Dateien
+	- In der Forward Lookup Zone gibt es eine Datei mit dem vollständigen Hostnamen der Domain mit der Endung .dns
+	- In der Reverse Lookup Zone gibt es das Gegenstück dazu, der Dateiname ist wie folgt aufgebaut umgedrehter Netzteil der IP Adresse und .in-addr.arpa.dns
+	- Die Datei cache.dns enthält die Stammserver des Internets
+		- Sie liegt unter %WINDIR%\\System32\\dns\\cache.dns
+- # Einträge in der Zonen Datenbank
+	- Host, A
+		- Ressourceneintrag für IPv4 Adressen, kann dynamisch aktualisiert werden
+	- Host, AAAA
+		- Ressourceneintrag für IPv6 Adressen, kann dynamisch aktualisiert werden
+	- Zeiger, PTR
+		- Ressourceneintrag für die Namensauflösung im Reverse Lookup
+			- Es werden der Hostanteil einer IP-Adresse und der Hostname
+	- Dienst, SRV
+		- Damit werden Netzwerkdienste vermerkt wie bspw. ein Domaincontroller

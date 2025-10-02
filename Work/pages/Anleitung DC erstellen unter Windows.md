@@ -3,6 +3,7 @@
 		- Klicken sie auf Computername ändern -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
 			- Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
 	- Weisen sie dem DC eine statische IPv4 Adresse zu
+	- Erstellen sie wenn noch nicht gemacht ein lokales Admin Konto um falls der Zugriff auf die Domäne nicht funktioniert einen Rückfall Admin zu haben
 - # DC Erstellen
 	- Im Servermanager auf verwalten klicken
 		- Rollen und Funktionen hinzufügen
@@ -23,6 +24,7 @@
 - # In Domain einpflegen
 - Muss im selben Subnetz sein (Selber IP Präfix)
 - Unter System Settings/About/Advanced Settings/Computer Name/Change
+	- Sobald das geschehen ist können sie sich mit dem Administrator nur noch in der Domäne anmelden
 -
 - # DC hinzufügen
 	- Im Servermanager auf verwalten klicken
@@ -42,3 +44,14 @@
 		- Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
 		- Im nächsten Schritt prüft Windows die Voraussetzungen
 			- Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
+- # Integrierte DNS Einträge
+	- Die Dienste des Domaincontrollers werden im Netzwerk mit Service Resource Records identifiziert
+		- Diese werden beim erstellen des DCs automatisch erstellt
+			- Diese sollten unter forward lookup zonen erscheinen
+		- Beim Hochstufen werden die Zonen automatisch ins Active Directory integriert
+		- Sie werden beim Neustart automatisch aktualisiert
+- # Zusammenspiel
+	- Man sollte nie einen DC einzeln laufen lassen wenn man einen replizierten DC hat
+	- Bevor man einen Domain Computer einschaltet muss ein DC verfügbar sein
+	- Snapshots sollten immer gleichzeitig erstellt werden
+	- Falls ein DC zu einem früheren Zeitpunkt zurückgesetzt wird muss das bei allen DCs des Netzwerks getan werden
