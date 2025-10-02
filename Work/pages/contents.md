@@ -15,7 +15,6 @@
 		- [[Git]]
 	- ## Hardware
 		- [[Industrie 4.0]]
-		-
 - # Windows Server Anleitungen
 	- ## Betriebssystem
 		- [[Anleitung Windows Server Installation]]
