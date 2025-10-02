@@ -3,11 +3,13 @@
 		- ### Allgemein
 			- [[Firewall]]
 				- [[Ports]]
+				- [[IP]]
+			- [[IT-Sicherheit Grundlagen]]
 		- ### Windows
 			- [[CMD Befehle]]
 			- [[Windows Server Domain Controller]]
 			- [[DNS]]
-			- [[IT-Sicherheit Grundlagen]]
+			- [[DHCP]]
 		- ### Linux
 	- ## Software
 		- [[Git]]
@@ -23,4 +25,3 @@
 		- [[Anleitung DC erstellen unter Windows]]
 	- ## DNS
 		- [[Anleitung DNS unter Windows]]
--
