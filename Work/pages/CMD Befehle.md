@@ -91,7 +91,18 @@
 - ```cmd
   pause
   ```
-- ## runas
+- ## runas (Changed to Run as administrator)
+	- Ermöglicht es einem Benutzer, bestimmte Tools und Programme mit anderen Berechtigungen als denen auszuführen, die die aktuelle Anmeldung des Benutzers bietet.
+- ## runas Syntax:
+- ```cmd
+  runas [{/profile | /noprofile}] [/env] [{/netonly | /savecred}] [/smartcard]
+  [/showtrustlevels] [/trustlevel] /user:<UserAccountName> "<ProgramName> <PathToProgramFile>"
+  ```
+- |**Parameter**|**Description**|
+  |`/profile`| Lädt das Benutzerprofil|
+  |`/no profile`| Gibt an, dass das Benutzerprofil nicht geladen werden soll|
+  |`/env`| Gibt an, dass die aktuelle Netzwerkumgebung anstelle der lokalen Umgebung des Benutzers verwendet werden soll.|
+-
 - ## shutdown
 - ## sort
 - ## taskkill
