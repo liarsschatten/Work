@@ -55,3 +55,4 @@
 	- Bevor man einen Domain Computer einschaltet muss ein DC verfügbar sein
 	- Snapshots sollten immer gleichzeitig erstellt werden
 	- Falls ein DC zu einem früheren Zeitpunkt zurückgesetzt wird muss das bei allen DCs des Netzwerks getan werden
+-
