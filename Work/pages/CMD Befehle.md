@@ -98,10 +98,14 @@
   runas [{/profile | /noprofile}] [/env] [{/netonly | /savecred}] [/smartcard]
   [/showtrustlevels] [/trustlevel] /user:<UserAccountName> "<ProgramName> <PathToProgramFile>"
   ```
-- |**Parameter**|**Description**|
-  |`/profile`| Lädt das Benutzerprofil|
-  |`/no profile`| Gibt an, dass das Benutzerprofil nicht geladen werden soll|
-  |`/env`| Gibt an, dass die aktuelle Netzwerkumgebung anstelle der lokalen Umgebung des Benutzers verwendet werden soll.|
+- | **Parameter**      | **Description**                                                                 |
+  |----------------|------------------------------------------------------------------------------|
+  | `/profile`     | Lädt das Benutzerprofil                                                      |
+  | `/noprofile`  | Gibt an, dass das Benutzerprofil nicht geladen werden soll                   |
+  | `/env`         | Nutzt die aktuelle Netzwerkumgebung statt der lokalen Umgebung               |
+  | `/netonly`     | Nur Remotezugriff                                                             |
+  | `/savecred`    | Zeigt, ob Anmeldedaten gespeichert wurden                                   |
+-
 -
 - ## shutdown
 - ## sort
