@@ -7,21 +7,26 @@
 			- IPv6 Adresse eines Rechners
 - ## CD
 	- Der Befehl **cd (change directory)** wird verwendet, um das aktuelle Arbeitsverzeichnis zu ändern
-- ## CD Syntax:
-- ```cmd
-  cd [/d] [<drive>:][<path>]
-  cd [..]
-  chdir [/d] [<drive>:][<path>]
-  chdir [..]
-  ```
+	- ## CD Syntax:
+		- ```cmd
+		  cd [/d] [<drive>:][<path>]
+		  cd [..]
+		  chdir [/d] [<drive>:][<path>]
+		  chdir [..]
+		  ```
 -
-- ## CD Parameter:
-- |**Parameter**                     | **Description**| 
-  |---------------------------|-----------------|
-  | `/d`                            | Ändert das aktuelle Laufwerk, sowie das aktuelle Verzeichnis für ein Laufwerk|
-  | `<drive>:`| Gibt Laufwerk an, angezeigt oder geändert soll, wenn es vom Laufwerk unterscheidet|
-  |`<path>`| Gibt den Pfad zu dem Verzeichnis an, das Sie anzeigen oder ändern möchten|
-  |`[...]`|Gibt an, dass Sie zum übergeordneten Ordner wechseln möchten.|
+	- ## CD Parameter:
+		- | Parameter                | Beschreibung                                                    |
+		  |--------------------------|------------------------------------------------------------------|
+		  | `[<drive>:]`             | Laufwerk für die Auflistung                                     |
+		  | `[<path>]`               | Verzeichnis für die Auflistung                                  |
+		  | `[<filename>]`           | Bestimmte Datei für die Auflistung                              |
+		  | `/p`                     | Zeigt einen Bildschirm der Auflistung                           |
+		  | `/q`                     | Zeigt Dateibesitzinformationen                                  |
+		  | `/w`                     | Zeigt Liste im breiten Format                                   |
+		  | `/d`                     | Wie `/w`, aber Spalten-sortiert                                 |
+		  | `a[[:] <attributes>]`    | Zeigt nur Dateien/Verzeichnisse mit bestimmten Attributen\*     |
+		  | `/o[[:] <sortorder>]`    | Sortiert nach Kombinationen von `n`, `e`, `g`, `s`, `d`\*        |
 - ## CLS (Clear)
 	- Löscht das Eingabeaufforderungsfenster
 -
@@ -59,25 +64,25 @@
 -
 - ## exit
 	- Beendet den Befehlsinterpreter oder das aktuelle Batchskript
-	- |**Parameter** | **Description**|
-	  |`/b`| Beendet das aktuelle Batchskript|
-	  |`<exitcode>`| Gibt eine numerische Zahl an.|
+		- |**Parameter** | **Description**|
+		  |`/b`| Beendet das aktuelle Batchskript|
+		  |`<exitcode>`| Gibt eine numerische Zahl an.|
 	-
 - ## find
 	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.
-- ## find Syntax:
-- ```cmd
-  find [/v] [/c] [/n] [/i] [/off[line]] <"string"> [[<drive>:][<path>]<filename>[...]]
-  ```
-- ## find Parameter:
-- |**Parameter**|**Description**|
-  |`/v`| Zeigt alle Zeilen an, die nicht die angegebene `<string>` enthalten|
-  |`/c`| Zählt die Zeilen, die die angegebene `<string>` enthalten, und zeigt die Summe an|
-  |`/n`| Steht vor jeder Zeile mit der Zeilennummer der Datei.|
-  |`/i`| Gibt an, dass bei der Suche die Groß-/Kleinschreibung nicht beachtet wird|
-  |`/off[line]`| Überspringt keine Datei, für die der Offline-Attributsatz festgelegt ist|
-  |`<"string">`| required. Gibt die Gruppe von Zeichen an, nach denen Sie suchen möchten|
-  |`[<drive:>:] [<path>] <filename>`| Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird|
+	- ## find Syntax:
+		- ```cmd
+		  find [/v] [/c] [/n] [/i] [/off[line]] <"string"> [[<drive>:][<path>]<filename>[...]]
+		  ```
+	- ## find Parameter:
+		- |**Parameter**|**Description**|
+		  |`/v`| Zeigt alle Zeilen an, die nicht die angegebene `<string>` enthalten|
+		  |`/c`| Zählt die Zeilen, die die angegebene `<string>` enthalten, und zeigt die Summe an|
+		  |`/n`| Steht vor jeder Zeile mit der Zeilennummer der Datei.|
+		  |`/i`| Gibt an, dass bei der Suche die Groß-/Kleinschreibung nicht beachtet wird|
+		  |`/off[line]`| Überspringt keine Datei, für die der Offline-Attributsatz festgelegt ist|
+		  |`<"string">`| required. Gibt die Gruppe von Zeichen an, nach denen Sie suchen möchten|
+		  |`[<drive:>:] [<path>] <filename>`| Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird|
 -
 - ## hostname
 	- Zeigt den Hostnamenteil des vollständigen Computernamens an.
@@ -115,4 +120,5 @@
 - ## taskkill
 - ## tasklist
 -
-- # Netzwerk Befehle
+- # Netzwerk Befehle:
+-
