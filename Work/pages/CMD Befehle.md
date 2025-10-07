@@ -105,7 +105,10 @@
   | `/env`         | Nutzt die aktuelle Netzwerkumgebung statt der lokalen Umgebung               |
   | `/netonly`     | Nur Remotezugriff                                                             |
   | `/savecred`    | Zeigt, ob Anmeldedaten gespeichert wurden                                   |
--
+  |`/smartcard`   | Gibt an, ob die Anmeldedaten von einer Smartcard bereitgestellt werden sollen.|
+  |`/showtrustlevels`| Zeigt Vertrauensstufen an, die als Argumente für verwendet werden können.|
+  |`/trustlevel`|  Zeigt Berechtigungsstufe, auf der die Anwendung ausgeführt werden soll.|
+  |`/user:<**UserAccountName> **"<**ProgramName> <PathToProgramFile>**"`| Gibt den Namen des Benutzerkontos an, unter dem das Programm ausgeführt werden soll, den Namen des Programms und den Pfad zur Programmdatei.|
 -
 - ## shutdown
 - ## sort
