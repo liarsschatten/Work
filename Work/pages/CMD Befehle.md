@@ -62,13 +62,11 @@
 		  **g** - Gruppenverzeichnisse zuerst
 		  **s** - Nach Größe, kleinste zuerst
 		  **d** - Nach Datum/Uhrzeit, älteste zuerst|
--
 - ## exit
 	- Beendet den Befehlsinterpreter oder das aktuelle Batchskript
 		- |**Parameter** | **Description**|
 		  |`/b`| Beendet das aktuelle Batchskript|
 		  |`<exitcode>`| Gibt eine numerische Zahl an.|
-	-
 - ## find
 	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.
 	- ## find Syntax:
@@ -84,7 +82,6 @@
 		  |`/off[line]`| Überspringt keine Datei, für die der Offline-Attributsatz festgelegt ist|
 		  |`<"string">`| required. Gibt die Gruppe von Zeichen an, nach denen Sie suchen möchten|
 		  |`[<drive:>:] [<path>] <filename>`| Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird|
--
 - ## hostname
 	- Zeigt den Hostnamenteil des vollständigen Computernamens an.
 	- ## hostname Syntax:
